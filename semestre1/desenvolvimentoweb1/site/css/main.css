@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    position: relative;
+    min-height: 100vh;
+}
+
+#header{
+    background-color: #191970;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    color: #ffffff;
+}
+
+#logo{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Madimi One', 'Tahoma';
+}
+
+#menu{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#menu li{
+    list-style-type: none;
+    display: inline;
+    cursor: pointer;
+    padding: 1%;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: inherit;
+}
+#menu li:hover{
+    background-color: #00bfff;
+    /* outra opção de feedback de seleção:
+    padding-bottom: 0.4em;
+    border-bottom: 0.3em solid #00bfff;
+    font-weight: bold; */
+}
+
+#menu, #content, #footer{
+    font-family: 'Roboto'
+}
+
+#content{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 55px;
+}
+/* #id elemento:first-child é um sa instância do elemento dentro da divisão selecionada por id eletor que seleciona a primeir*/
+#content p{
+    text-align: justify;
+    line-height: 20px;
+    padding-top: 10px;
+}
+#content p:first-child, #content h2{
+    text-align: center;
+}
+#content h2{padding-top: 2;}
+
+#content img{
+    width: 60%
+}
+#footer{
+    background-color: #191970;
+    width: 100%;
+    height:50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#footer p{
+    text-align: center;
+    color: #ffffff;
+    padding: 17px;
+}
+
