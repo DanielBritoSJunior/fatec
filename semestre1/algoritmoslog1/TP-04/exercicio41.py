@@ -24,6 +24,3 @@ elif(num == 6 or num ==7 or num ==8):
     print("O número inserido, divido por 9, é:", num)
 else:
     print("Número invalido, digite um número entre 1-9.")
-
-
-
