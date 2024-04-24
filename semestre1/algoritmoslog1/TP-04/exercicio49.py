@@ -1,13 +1,19 @@
-def pot(x,3):
-    pot = x**3
+print("Nome: Daniel Brito da Silva Júnior RA:1051392411007")
 
+def verif_idade(idade_):
+    if idade_>65:
+        return 1
+    elif idade_>18:
+        return 2
+    else:
+        return 3
 
-def diferenca(x,y):
-    diferenca = x-y
-    if dif < 0:
-        dif = dif * -1
-    return dif
+nome = input("Insira seu nome: ")
+idade = int(input("Insira sua idade"))
 
-def divisao(x,y):
-    divisao = x/y
-    return divisao
+if verif_idade == 1:
+    print("Bem vindo(a)", nome, "você é maior de 65 anos.")
+if verif_idade == 2:
+    print("Bem vindo(a)", nome, "você é maior de idade.")
+if verif_idade == 3:
+    print("Bem vindo(a)", nome, "você é menor de idade;")
