@@ -9,8 +9,9 @@ def verif_idade(idade_):
         return 3
 
 nome = input("Insira seu nome: ")
-idade = int(input("Insira sua idade"))
+idade = int(input("Insira sua idade: "))
 
+verif_idade = verif_idade(idade)
 if verif_idade == 1:
     print("Bem vindo(a)", nome, "você é maior de 65 anos.")
 if verif_idade == 2:

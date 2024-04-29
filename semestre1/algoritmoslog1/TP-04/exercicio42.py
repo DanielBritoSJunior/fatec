@@ -1,3 +1,4 @@
+print("Nome: Daniel Brito da Silva Junior  RA:1051392411007 Turma: DSM 2024")
 name = input("Insira seu nome:")
 ra = int(input("Insira seu RA:"))
 nota1 = float(input("Qual sua nota1:"))

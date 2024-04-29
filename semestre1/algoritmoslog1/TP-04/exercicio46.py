@@ -1,3 +1,5 @@
+print("Nome: Daniel Brito da Silva Júnior RA: 1051392411007")
+
 valor = float(input("Insira um valor: "))
 
 def modulo(x):

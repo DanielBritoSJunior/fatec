@@ -1,3 +1,5 @@
+print("Nome: Daniel Brito da Silva Júnior RA: 1051392411007")
+
 def coletar_valor():
     while True:
         valor = float(input("Insira o valor da compra: "))

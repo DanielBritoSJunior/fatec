@@ -1,3 +1,5 @@
+print("Nome: Daniel Brito da Silva Junior  RA:1051392411007 Turma: DSM 2024")
+
 def coletar_salario():
     while True:
         salario_ = float(input("Insira o salário: "))

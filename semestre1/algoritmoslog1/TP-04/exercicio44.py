@@ -1,5 +1,5 @@
 print("Nome: Daniel Brito da Silva Júnior RA: 1051392411007")
-valor = float(input("Insira um número: "))
+valor = int(input("Insira um número: "))
 import math
 
 def pot(x,y):
