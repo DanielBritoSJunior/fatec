@@ -12,6 +12,7 @@ n1 = coleta(" P1")
 n2 = coleta(" P2")
 mg = (n1*4 + n2*6)/10
 
+print("Nome: Daniel Brito da Silva Júnior RA: 1051392411007 Turma: DSM 2024")
 if mg>=9:
     print("Sua média geral é: ", mg)
     print("Conceito: A")
