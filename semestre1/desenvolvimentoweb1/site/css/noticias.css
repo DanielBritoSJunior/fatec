@@ -108,15 +108,18 @@ article {
 }
 
 #noticia1 {
-    background-color: #ff0000;
+    background-color: #ffffff;
+    box-shadow: 0 0 0.3em 0.3em rgba(0, 0, 0, 0.1);
 }
 
 #noticia2 {
-    background-color: #00ff00;
+    background-color: #ffffff;
+    box-shadow: 0 0 0.3em 0.3em rgba(0, 0, 0, 0.1);
 }
 
 #noticia3 {
-    background-color: #0000ff;
+    background-color: #ffffff;
+    box-shadow: 0 0 0.3em 0.3em rgba(0, 0, 0, 0.1);
 }
 
 footer {
@@ -132,4 +135,22 @@ footer p {
     color: #ffffff;
     text-align: center;
     padding: 17px 0;
+}
+
+#noticia1 img{
+    width: auto;
+    height: 204px;
+}
+
+#noticia2 img{
+    width: auto;
+    height: 175px;
+}
+
+#noticia1{
+    text-align: justify;
+}
+
+#noticia2{
+    text-align: justify;
 }

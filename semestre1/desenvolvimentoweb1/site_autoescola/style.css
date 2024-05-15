@@ -59,6 +59,8 @@ footer{
     padding: 10px;
     font-size: larger;
     flex-wrap: wrap;
+    background-size: 80%;
     background-color: #f5f5dc
+
     
 }
