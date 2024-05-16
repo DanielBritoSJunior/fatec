@@ -37,3 +37,4 @@ if sexo == "m":
         print("Você está no seu peso ideal!")
     elif r>=25:
         print("Você está acima do peso!")
+        
