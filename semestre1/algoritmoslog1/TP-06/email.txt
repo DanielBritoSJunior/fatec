@@ -7,3 +7,6 @@ daniel
 & "C:/Program Files/Python312/python.exe" c:/Users/1051392411007/Desktop/fatec/semestre1/algoritmoslog1/TP-06/fix63.py
 & "C:/Program Files/Python312/python.exe" c:/Users/1051392411007/Desktop/fatec/semestre1/algoritmoslog1/TP-06/fix63.py
 & "C:/Program Files/Python312/python.exe" c:/Users/1051392411007/Desktop/fatec/semestre1/algoritmoslog1/TP-06/fix63.py
+daniel.gmail.com
+eric.gmail.com
+robson.gmail.com
