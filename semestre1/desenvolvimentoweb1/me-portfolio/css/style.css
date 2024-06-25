@@ -58,3 +58,9 @@ footer p{
     margin-top: 2px;
 }
 
+img {
+    width: 140px;
+    margin-left: 240px;
+    border-radius: 50%;
+}
+
