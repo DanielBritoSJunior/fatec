@@ -97,11 +97,11 @@
     
     // console.log('Quantidade de meses necessários:', qntMeses)
     
-    import PromptSync from "prompt-sync"
-    const prompt = PromptSync()
+import PromptSync from "prompt-sync"
+const prompt = PromptSync()
 
 let valor = Number(prompt('Digite o valor: '))
 for(let i=0; i<=10 ; i++) {
-    let result = i * valor
-    console.log(`${valor}x${i}=${result}`)
+    let resultado = i * valor
+    console.log(`${valor}x${i}=${resultado}`)
 }
