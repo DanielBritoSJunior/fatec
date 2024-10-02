@@ -1,0 +1,62 @@
+QUESTIONÁRIO - Daniel Brito da Silva Júnior - RA: 1051392411007
+
+LISTA LIGADA SIMPLES
+
+1.
+- Listas ligadas pode crescer e diminuir dinamicamente, enquanro vetores tem tamanhos fixos.
+- Insere e remove da listas com mais facilidade.
+- Uso eficiente de memória, usa memória somente quando precisa.
+
+2.
+- Listas ligadas não permitem acessar um elemento aleatório diretamente, é necessário percorrer a lista.
+- Sobrecarga de memória, cada nó precisa de espaço adicional.
+- A manipulação da lista pode ser mais complexa do que em vetores.
+
+3.
+Localize o nó que quer remover, percorrendo a lista até o nó desejado. Precisamos ajustar os ponteiros: o ponteiro do nó anterior deve ser atualizado para apontar para o nó seguinte do nó que estamos removendo, efetivamente "pulando" o nó a ser removido. Após isso, o nó pode ser desreferenciado para liberar a memória.
+
+4. 
+Na maioria das vezes, precisamos percorrer até o nó que queremos remover. Antes de localizar o nó, é 0(n), onde n é o número de elementos da lista, depois que localizamos o nó 0(1), envolve apenas na atualização dos ponteiros.
+
+LISTAS DUPLAMENTE LIGADAS 
+
+5. 
+A principal diferença é que, em uma lista duplamente ligada, cada nó possui dois ponteiros: um para o próximo nó e outro para o nó anterior. Isso permite que a lista seja percorrida em ambas as direções (para frente e para trás), enquanto uma lista ligada simples só permite a travessia em uma direção.
+
+6.
+Semelhante ao da lista ligada simples, precisamos localizar o nó primeiro.
+
+7.
+Para inserir um elemento no meio de uma lista duplamente ligada, primeiro, localizamos o nó após o qual queremos inserir o novo elemento. Em seguida, criamos um novo nó e ajustamos os ponteiros: o ponteiro do novo nó deve apontar para o próximo nó, e o ponteiro anterior do novo nó deve apontar para o nó anterior. Por fim, precisamos atualizar os ponteiros do nó anterior e do próximo nó para incluir o novo nó na lista. Isso permite que a inserção ocorra em ambas as direções.
+
+8.
+Inserção no Início: O tempo de execução é O(1), pois basta criar um novo nó e ajustá-lo para ser o novo cabeçalho da lista, com o ponteiro do novo nó apontando para o antigo cabeçalho.
+Inserção no Fim: O tempo de execução é O(n) na lista ligada simples, pois precisamos percorrer toda a lista para encontrar o último nó. Em uma lista duplamente ligada, se mantivermos um ponteiro para o último nó, a inserção no fim pode ser O(1).
+
+'ARTHUR DAVI GOMES',
+'BRUNO HENRIQUE QUERICHELLI GARCIA',
+'CAIO HENRIQUE FERREIRA DE SOUZA',
+'DANIEL BRITO DA SILVA JUNIOR',
+'DANIEL GALVAO MAGALHAES DA SILVA',
+'DAVI BERTO MANSUR DUARTE',
+'ELISA APARECIDA MARTINS DE OLIVEIRA',
+'ERIC VINICIUS DA SILVA MENEGON',
+'FELIPE AUGUSTO PEREIRA LEMES',
+'FERNANDA VICTORIA FELIX OLIVEIRA',
+'ADRIANO DOS SANTOS',
+'GIOVANI DE BIAGI ALVES',
+'VITOR CARDOSO DA CRUZ',
+'GRAZIELLA SOUZA',
+'RODRIGO MORAES DE SOUZA GARCIA',
+'HOSANA AZEVEDO PIRES',
+'JOAO PEDRO SOUZA SILVA',
+'LEONARDO VINÍCIUS GURTLER HUBERT',
+'MARCELO HENRIQUE REDUZINO',
+'WILLIAM SILVA DOS REIS',
+'NATHAN FERRACINI BATISTA',
+'GUSTAVO SILVA DE CARVALHO',
+'PEDRO HENRIQUE BONOMO SANTOS',
+'RAMON GODINHO',
+'JOAO VITOR FERNANDES DE MATOS ROCHA',
+'MATHEUS HENRIQUE ALMEIDA VIEIRA NEVES',
+'ROBSON ALAN MANTOVANI'
