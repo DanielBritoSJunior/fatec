@@ -25,7 +25,6 @@ class LinkedList {
         this.count++
     }
 
-    // Método para inserir em ordem alfabética
     insertInOrder(element) {
         const node = new Node(element)
         if (this.head == null || this.head.element > element) {
@@ -41,8 +40,7 @@ class LinkedList {
         }
         this.count++
     }
-
-    // Método para exibir a lista
+    
     toString() {
         let current = this.head
         let string = ''

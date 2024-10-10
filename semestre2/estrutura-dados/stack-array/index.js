@@ -4,23 +4,23 @@ class Stack {
         this.items = [];
     }
 
-    push(element) {
+    push(element) { // adiciona em cima
         this.items.push(element)
     }
 
-    pop() {
+    pop() { // tira do topo e devolve
         return this.items.pop()
     }
 
-    peek() {
+    peek() {  // mostra qual está no topo
         return this.items[this.items.length - 1]
     }
 
-    isEmpty() {
+    isEmpty() {  // vazio ou não
         return this.items.length === 0
     }
 
-    size() {
+    size() { // tamanho
         return this.items.length
     }
 
