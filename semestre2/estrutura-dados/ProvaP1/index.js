@@ -19,9 +19,9 @@ class GerenciadorDeProcessos {
     incluirProcesso(id, nome, prioridade, tempoEspera) {
         const novoProcesso = new Processo(id, nome, prioridade, tempoEspera);
         if (prioridade === 0) {
-            this.fila.unshift(novoProcesso); // Inserir no início se a prioridade for 0
+            this.fila.unshift(novoProcesso);
         } else {
-            this.fila.push(novoProcesso);    // Inserir no final para outras prioridades
+            this.fila.push(novoProcesso);
         }
     }
 
@@ -48,7 +48,7 @@ class GerenciadorDeProcessos {
             return;
         }
 
-        const processo = this.fila.shift(); // Remover o processo do início
+        const processo = this.fila.shift();
         console.log(`Processo executado: ${processo}`);
     }
 
@@ -64,7 +64,6 @@ class GerenciadorDeProcessos {
     }
 }
 
-// Exemplo de uso
 const gerenciador = new GerenciadorDeProcessos();
 gerenciador.incluirProcesso(104, "Window Manager", 4, 20);
 gerenciador.incluirProcesso(101, "System Process", 0, 5);
