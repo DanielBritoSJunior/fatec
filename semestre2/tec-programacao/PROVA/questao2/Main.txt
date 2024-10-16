@@ -1,0 +1,70 @@
+public class Main {
+    public static void main(String[] args) {
+        String[] listaPessoas = new String[10]; 
+        int tamanhoLista = 0;
+
+        listaPessoas[tamanhoLista++] = "Alice";
+        listaPessoas[tamanhoLista++] = "Bob";
+        listaPessoas[tamanhoLista++] = "Carlos";
+
+        System.out.println("Nomes adicionados: Alice, Bob, Carlos");
+
+        String nomeParaExcluir = "Bob";
+        boolean encontrado = false;
+
+        for (int i = 0; i < tamanhoLista; i++) {
+            if (listaPessoas[i].equals(nomeParaExcluir)) {
+                listaPessoas[i] = null;  // Remover nome
+                encontrado = true;
+                System.out.println("Nome '" + nomeParaExcluir + "' removido.");
+                break;
+            }
+        }
+
+        if (!encontrado) {
+            System.out.println("Nome '" + nomeParaExcluir + "' não encontrado.");
+        }
+
+        // Consultar tamanho da lista
+        int elementosValidos = 0;
+        for (int i = 0; i < tamanhoLista; i++) {
+            if (listaPessoas[i] != null) {
+                elementosValidos++;
+            }
+        }
+        System.out.println("Tamanho da lista: " + elementosValidos);
+
+        // Pesquisar se um nome está na lista
+        String nomeParaPesquisar = "Carlos";
+        boolean nomeEncontrado = false;
+
+        for (int i = 0; i < tamanhoLista; i++) {
+            if (listaPessoas[i] != null && listaPessoas[i].equals(nomeParaPesquisar)) {
+                nomeEncontrado = true;
+                System.out.println("Nome '" + nomeParaPesquisar + "' encontrado na lista.");
+                break;
+            }
+        }
+
+        if (!nomeEncontrado) {
+            System.out.println("Nome '" + nomeParaPesquisar + "' não está na lista.");
+        }
+
+        // Imprimir lista completa
+        System.out.println("Lista completa de nomes:");
+        for (int i = 0; i < tamanhoLista; i++) {
+            if (listaPessoas[i] != null) {
+                System.out.println(listaPessoas[i]);
+            }
+        }
+
+        // Limpar a lista
+        for (int i = 0; i < tamanhoLista; i++) {
+            listaPessoas[i] = null;
+        }
+        System.out.println("Lista limpa.");
+
+        // Encerrando o programa
+        System.out.println("Programa encerrado.");
+    }
+}

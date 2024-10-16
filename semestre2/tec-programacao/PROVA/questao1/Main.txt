@@ -1,0 +1,26 @@
+public class Main {
+    public static void main(String[] args) {
+        // Definindo manualmente os valores de altura e peso
+        double peso = 75.0;  // Exemplo de peso fixo
+        double altura = 1.75;  // Exemplo de altura fixa
+
+        Pessoa pessoa = new Pessoa(altura, peso);
+
+        System.out.println("Menu:");
+        System.out.println("1. Cadastrar pessoa (valores fixos)");
+        System.out.println("2. Encerrar programa");
+
+        // Simulando a escolha do menu como "1"
+        int opcao = 1;
+
+        if (opcao == 1) {
+            if (pessoa.calculeIMC()) {
+                System.out.println("SOBREPESO");
+            } else {
+                System.out.println("PESO_NORMAL");
+            }
+        } else if (opcao == 2) {
+            System.out.println("Programa encerrado.");
+        }
+    }
+}

@@ -1,0 +1,19 @@
+public class Main {
+    public static void main(String[] args) {
+        ContaBancaria conta = new ContaBancaria("12345-6");
+
+        conta.verSaldo();  // Exibe saldo inicial
+
+        conta.depositar(1000);  // Deposita R$ 1000
+        conta.verSaldo();  // Exibe saldo após depósito
+
+        conta.sacar(500);  // Realiza saque de R$ 500
+        conta.verSaldo();  // Exibe saldo após saque
+
+        conta.sacar(600);  // Tenta sacar R$ 600 (saldo insuficiente)
+        conta.verSaldo();  // Exibe saldo após tentativa de saque
+
+        conta.depositar(-100);  // Tenta depositar valor negativo
+        conta.verSaldo();  // Exibe saldo após tentativa de depósito
+    }
+}

@@ -1,0 +1,30 @@
+Perguntas com respostas dissertativas sobre o paradigma de POO:
+
+5) Podemos programar em Java sem usar pacotes? Por que é bom usar pacotes? Você usa pacotes somente porque o Eclipse impõe? Como compilaria o seu programa em linha comando, sem usar pacotes?
+Sim, é possível programar em Java sem usar pacotes. Quando você cria classes em um único diretório e não as organiza em pacotes, o Java ainda pode compilar e executar o código. No entanto, não usar pacotes pode resultar em problemas de organização e manutenção do código à medida que o projeto cresce.
+
+6) Defina formalmente o Paradigma de Orientação a Objetos? 
+O Paradigma de Orientação a Objetos (POO) é um modelo de programação baseado no conceito de "objetos", que podem conter dados e código que opera sobre esses dados.
+
+7) Compare a POO com o modelo antigo de programação, como eram os programas antigamente no modelo procedural? 
+No modelo de programação procedural, o foco está em funções e procedimentos que operam em dados. Os dados e comportamentos são separados, e o fluxo de controle do programa é estruturado em sequência, utilizando chamadas de funções e manipulação de dados.
+
+8) Quais foram as inovações trazidas pelo novo modelo de POO? Cite os benefícios obtidos por quem adotou o modelo de P.O.O.?
+As inovações trazidas pela Programação Orientada a Objetos incluem:
+Encapsulamento: Permite esconder a complexidade interna de um objeto e expor apenas a interface necessária, facilitando a interação com outros objetos.
+Herança: Promove a reutilização de código ao permitir que classes herdem características de outras classes, reduzindo a duplicação de código.
+Polimorfismo: Proporciona flexibilidade no código, permitindo que uma interface única seja utilizada para representar diferentes tipos de objetos.
+
+Benefícios da POO:
+Manutenção Facilitada: O encapsulamento e a modularidade tornam o código mais fácil de entender e modificar.
+Reutilização de Código: A herança e a composição facilitam a reutilização de código, economizando tempo e esforço no desenvolvimento.
+Melhor Modelagem: Permite que os desenvolvedores criem sistemas que imitam o mundo real, resultando em código mais intuitivo e legível.
+Redução de Erros: A POO ajuda a reduzir erros ao isolar mudanças em classes específicas, minimizando o impacto em outras partes do sistema.
+
+9) O que é uma classe e o que é um objeto?
+Classe: Uma classe é uma definição ou um molde que descreve a estrutura e o comportamento de um conjunto de objetos. Ela contém atributos (variáveis) e métodos (funções) que definem o que um objeto da classe pode fazer.
+Objeto: Um objeto é uma instância de uma classe. Ele representa uma entidade concreta que possui estado (valores dos atributos) e comportamento (métodos que podem ser executados).
+
+10) Por que sempre devemos encapsular as nossas classes?
+Encapsular classes é uma prática essencial na Programação Orientada a Objetos por várias razões:
+Proteção dos Dados; Controle de Acesso; Manutenção e Flexibilidade; Clareza do Código.
