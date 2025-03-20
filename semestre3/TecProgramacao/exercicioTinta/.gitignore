@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+
+# TypeScript
+*.tsbuildinfo
+
+# Compilação do TypeScript
+dist/
+build/
+
+# Arquivos de ambiente local
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos do VSCode
+.vscode/
+
+# Outros arquivos locais (dependendo do seu editor)
+.idea/
+.DS_Store
